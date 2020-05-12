@@ -23,7 +23,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Jost", sans-serif;
+  font-family: "roboto", Monospace;
 }
 
 /*--------------------------------------------------------------
@@ -274,6 +274,10 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 48px 0 0;
     padding: 6px 20px 7px 20px;
   }
+  .section-padding {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 /* Mobile Navigation */
@@ -467,7 +471,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .animated {
-  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  animation: up-down 1s ease-in-out infinite alternate-reverse both;
 }
 
 @media (max-width: 991px) {
@@ -504,7 +508,8 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 575px) {
   #hero .hero-img img {
-    width: 80%;
+    width: 70%;
+    margin-top: 10%;
   }
   #hero .btn-get-started {
     font-size: 16px;
@@ -600,7 +605,7 @@ section {
 # Cliens
 --------------------------------------------------------------*/
 .cliens {
-  padding: 12px 0;
+  /* padding: 12px 0; */
   text-align: center;
 }
 
@@ -922,7 +927,7 @@ section {
 .cta {
   background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/parral-bg.jpg") fixed center center;
   background-size: cover;
-  padding: 120px 0;
+  /* padding: 120px 0; */
 }
 
 .cta h3 {
@@ -933,6 +938,7 @@ section {
 
 .cta p {
   color: #fff;
+  margin-bottom: 30px;
 }
 
 .cta .cta-btn {
@@ -1876,6 +1882,25 @@ section {
 
 .text-contact{
   margin-top: 10px;
-  font-family: -apple-system;
-  /* font-family: "Helvetica Neue"; */
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.text-contact:hover{
+  color: #FFC024;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.top-group {
+  text-align: center;
+}
+
+.top-group h2 {
+  margin: 0px;
+}
+
+.section-padding {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
